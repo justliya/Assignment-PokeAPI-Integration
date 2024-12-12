@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon Characters</title>
+    <link rel="stylesheet" href="poke.css">
+  </head>
+  <body>
+    <h1>Pokemon Character Information</h1>
+    <p>Please type in the box the character you would like information about:</p>
+    <div id="info">
+      <form id="pokemonForm" action="#" method="GET">
+        <label for="name">Name:</label>
+        <input type="text" id="character" name="character" required placeholder="Name of a Pokémon">
+        <button type="submit" class="btn btn-primary">Find</button>
+      </form>
+      <div id="characterInfo"></div>
+    </div>
+    <script src="poke.js"></script>
+  </body>
+</html>
+
